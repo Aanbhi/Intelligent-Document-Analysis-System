@@ -1,14 +1,50 @@
-# Intelligent-Document-Analysis-System
+# Intelligent Document Analysis System
 
-Developed a Python-based system to analyze uploaded documents for plagiarism detection, similarity scoring, sentiment analysis, and content grading. The project includes a feedback mechanism that provides short, point-wise insights into the quality of the content, writing style, and originality.
+An interactive desktop application built with Python and Tkinter for comprehensive document analysis. This tool helps users compare two documents by detecting plagiarism, calculating similarity, providing detailed feedback on differences, analyzing sentiment, and grading content quality.
 
-Key Features:
-1. Plagiarism Detection: Calculates similarity scores using TF-IDF and cosine similarity.
-2. Grading System: Assigns grades based on originality levels.
-3. Sentiment Analysis: Assesses the tone of the document (positive, neutral, or negative).
-4. Writing Style Analysis: Evaluates sentence structure and vocabulary richness.
-5. Point-Wise Feedback: Generates concise and actionable feedback.
+# Features
 
-Technologies Used: Python, NLTK, TextBlob, scikit-learn, Google Colab, and chardet for encoding detection.
+- **Plagiarism Detection & Similarity Score**  
+  Calculates how similar two documents are, helping identify copied or overlapping content.
 
-Outcome: Enhanced document evaluation and feedback generation for educational or professional use cases.
+- **Difference Feedback**  
+  Highlights differences line-by-line between Document 1 and Document 2 with clear, actionable feedback.
+
+- **Sentiment Analysis**  
+  Analyzes the sentiment polarity of each document and visualizes results with an embedded bar chart.
+
+- **Content Grading**  
+  Provides a simple grade (A-D) based on similarity metrics to assess document quality.
+
+- **User-Friendly GUI**  
+  Designed with a modern and appealing interface using pista green and pastel pink colors for a smooth user experience.
+
+# Technologies Used
+
+- Python 3.x  
+- Tkinter (GUI)  
+- TextBlob (Sentiment Analysis)  
+- Matplotlib (Visualization)  
+- Difflib (Text similarity)  
+
+# Installation
+
+1. Clone the repository:
+
+git clone https://github.com/YourUsername/intelligent-document-analysis.git
+
+cd intelligent-document-analysis
+
+2. Create and activate a virtual environment:
+
+python -m venv venv
+
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+3. Install dependencies:
+
+pip install -r requirements.txt
+
+4. Run the application:
+
+python app.py
